@@ -6,7 +6,7 @@
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",  
       "unicodeprogressbar": {
-        "$path": "src"
+        "$path": "unicodeprogressbar"
       }
     }
   }

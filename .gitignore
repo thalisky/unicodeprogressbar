@@ -9,12 +9,13 @@ luau_packages/
 lune_packages/
 .pesde/
 
-# Ignore Rojo build artifacts
+# Ignore build artifacts
 *.rbxlx
 *.rbxl
 *.rblx
 *.rbxmx
 *.rbxm
+package.tar.gz
 
 # Rojo and Luau lsp stuff
 sourcemap.json

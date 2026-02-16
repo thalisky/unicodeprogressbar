@@ -1,5 +1,5 @@
 name = "thalisky/unicodeprogressbar"
-version = "0.2.4"
+version = "0.2.5"
 description = "Generates a unicode progress-bar"
 authors = ["thalisky"]
 repository = "https://github.com/thalisky/unicodeprogressbar"

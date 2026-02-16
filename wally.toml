@@ -3,12 +3,12 @@ name = "thalisky/unicodeprogressbar"
 description = "Generates a unicode progress-bar"
 license = "CC BY-SA 4.0"
 repository = "https://github.com/thalisky/unicodeprogressbar"
-version = "0.2.3"
+version = "0.2.4"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = ["**"]
 include = [
-    "default.project.json",
+    "model.project.json",
     "src",
     "src/**",
     "LICENSE",

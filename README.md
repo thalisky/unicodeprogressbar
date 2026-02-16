@@ -13,16 +13,22 @@ A unicode progress-bar generator
 
 ## Installation
 
-Install Unicode Progress-Bar using Wally
+Install unicodeprogressbar using Wally
 
-```toml
-unicodeprogressbar = "thalisky/unicodeprogressbar"
+```sh
+wally add thalisky/unicodeprogressbar
+```
+
+Install unicodeprogressbar using Pesde
+
+```sh
+pesde add thalisky/unicodeprogressbar
 ```
     
 ## Usage
 
 ```luau
-local uniprogressbar = require(game:GetService("ReplicatedStorage").Packages.unicodeprogressbar)
+local uniprogressbar = require(path.to.unicodeprogressbar)
 
 uniprogressbar.generateBar(71, 0, 100, 32, "MINIMAL")
 --[[ RETURNS:

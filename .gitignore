@@ -1,3 +1,6 @@
+# IDE-specific
+.vscode
+
 # Lock files
 /*.rbxlx.lock
 /*.rbxl.lock

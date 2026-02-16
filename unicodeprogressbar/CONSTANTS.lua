@@ -1,8 +1,8 @@
 --[[ do NOT touch this file ]]
 
 local CONSTANTS = {}
-
-CONSTANTS.BLOCKS			=	{[0] = "" --[[ Necessary as indices start at 1 ]], "▏","▎","▍","▌","▋","▊","▉","█"} -- to self: smooth right to left bars are not possible as the necessary characters do not exist in unicode
+ -- to self: smooth right to left bars are not possible as the necessary characters do not exist in unicode
+CONSTANTS.BLOCKS			=	{[0] = "" --[[ Necessary as indices start at 1 ]], [1] = "▏", [2] = "▎", [3] = "▍", [4] = "▌", [5] = "▋", [6] = "▊", [7] = "▉", [8] = "█"}
 CONSTANTS.BACKGROUND_BLOCKS	=	{
     ["NONE"] = "", 
     ["TRANSPARENT"] = " ", 

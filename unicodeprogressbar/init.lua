@@ -1,5 +1,5 @@
---,!strict
---[[ Unicode Progress-Bar Generator © 2024 by khanmenthe is licensed under CC BY-SA 4.0 ]]
+--!strict
+--[[ Unicode Progress-Bar Generator © 2026 by thalisky is licensed under CC BY-SA 4.0 ]]
 
 local unicodeProgressBar = {}
 

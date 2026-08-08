@@ -1,3 +1,4 @@
+--!strict
 local SETTINGS = {}
 
 local CONSTANTS = require(script.Parent.CONSTANTS)

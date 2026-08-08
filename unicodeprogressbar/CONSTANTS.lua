@@ -1,3 +1,4 @@
+--!strict
 --[[ do NOT touch this file ]]
 
 local CONSTANTS = {}

@@ -25,10 +25,10 @@ end
 --- Public functions
 -- Generates a text progress bar 
 function unicodeProgressBar.generateBar(value: number, minRangeValue: number, maxRangeValue: number, length: number, background_block: keyof<typeof(CONSTANTS.BACKGROUND_BLOCKS)>?): string
-	background_block = 	background_block or SETTINGS.DEFAULT_BACKGROUND
+	background_block = background_block or SETTINGS.DEFAULT_BACKGROUND
 	local bar: string = ""
 
-	local normalizedValue = (value - minRangeValue) / (maxRangeValue - minRangeValue) -- normilizing formula
+	local normalizedValue = (value - minRangeValue) / (maxRangeValue - minRangeValue)
 	local scaledToLengthValue = length * normalizedValue
 	local scaledToLengthValueWhole, scaledToLengthValueMantissa = math.modf(scaledToLengthValue) 
 
